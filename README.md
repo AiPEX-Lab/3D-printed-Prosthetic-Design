@@ -4,6 +4,7 @@ This repository contains open-source data and code for 3D-printed prosthetic des
 # Digital Reconstruction
 ## Overall Pipeline
 All code for 3D reconstruction is in "3D reconstruction code" folder.
+
 Target video → Extract images → Remove background → Reconstruction via Neuralangelo → Post-processing → Final Mesh
 
 ## Taking Videos
