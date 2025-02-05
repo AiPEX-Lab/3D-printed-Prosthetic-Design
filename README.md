@@ -11,20 +11,20 @@ You can look at our open-access journal paper for video guidelines [1].
 
 ## Execution of the Pipeline
 To run the process for any image, run the following command:
-'''
+```
 bash automate.sh video_name.mp4
-'''
+```
 
 The above command should run the entire pipeline and generate a mesh in the current working directory. Just so you know, this whole process can take about 24 hours.
 In the scenario that you are doing anything via ssh, it is best to be able to run the above command with nohup in case your connection times out. To do that, do the following:
-'''
+```
 nohup bash automate.sh video_name.mp4 > logfile.log 2>&1 &
-'''
+```
 
 If you have a connection reset and you log in to the remote workstation to see the state of your training, run:
-'''
+```
 tail -f -n 1 /path/to/your/logfile.log
-'''
+```
 
 # Mechanical Prediction of 3D-printed shell
 
