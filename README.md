@@ -1,9 +1,12 @@
-# 3D-printed-Prosthetic-Design
-This repository contains open-source data and code for 3D-printed prosthetic design research.
+# Introduction
+This repository contains open-source data and code for 3D-printed prosthetic design research [1,2].
+
+This research aims to (1) 3D-reconstruct an object using a mobile phone and (2) predict the mechanical properties of 3D-printed shells from filament material data and a printing process parameter.
+These components can be implemented in the design of 3D-printed prosthetics to increase accessibility.
 
 # Digital Reconstruction
 ## Overall Pipeline
-All code for 3D reconstruction is in "3D reconstruction code" folder.
+All code for 3D reconstruction is in the "3D reconstruction code" folder.
 
 Target video → Extract images → Remove background → Reconstruction via Neuralangelo → Post-processing → Final Mesh
 
