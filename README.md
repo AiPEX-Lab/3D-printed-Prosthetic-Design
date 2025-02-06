@@ -9,7 +9,7 @@ Target video → Extract images → Remove background → Reconstruction via Neu
 
 ## Taking Videos
 Taking a good-quality video is an essential part of 3D reconstruction.
-You can look at our open-access journal paper for video guidelines [1].
+You can look at our journal paper for video guidelines [1].
 
 ## Execution of the Pipeline
 To run the process for any image, run the following command:
@@ -29,6 +29,14 @@ tail -f -n 1 /path/to/your/logfile.log
 ```
 
 # Mechanical Prediction of 3D-printed shell
+All data and code for the mechanical prediction of the 3D-printed shell are in the "Mechanical prediction data and code" folder.
+
+## Data
+The data used for training is generated via FEA. Please look at the journal [1] for specific data generation processes.
+
+## Prediction
+The XGBoost model predicts the mechanical properties of 3D-printed shells based on filament material data and printing process parameters.
+Please look at the journal [1] for specific prediction performance.
 
 # Citations
 Please cite the following papers when using the provided data and code.
