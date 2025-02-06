@@ -1,7 +1,7 @@
 # Introduction
 This repository contains open-source data and code for 3D-printed prosthetic design research [1,2].
 
-This research aims to (1) 3D-reconstruct an object using a mobile phone and (2) predict the mechanical properties of 3D-printed shells from filament material data and a printing process parameter.
+This research aims to (1) 3D-reconstruct an object from a video taken by a smartphone and (2) predict the mechanical properties of 3D-printed shells from filament material data and a printing process parameter.
 These components can be implemented in the design of 3D-printed prosthetics to increase accessibility.
 
 # Digital Reconstruction
