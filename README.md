@@ -10,6 +10,8 @@ All code for 3D reconstruction is in the "3D reconstruction code" folder.
 
 Target video → Extract images → Remove background → Reconstruction via Neuralangelo → Post-processing → Final Mesh
 
+![image alt](https://github.com/AiPEX-Lab/3D-printed-Prosthetic-Design/blob/main/Figures/3D%20Reconstruction%20Figure.png?raw=true)
+
 ## Taking Videos
 Taking a good-quality video is an essential part of 3D reconstruction.
 You can look at our journal paper for video guidelines [1].
