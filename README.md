@@ -16,6 +16,9 @@ Target video → Extract images → Remove background → Reconstruction via Neu
 Taking a good-quality video is an essential part of 3D reconstruction.
 You can look at our journal paper for video guidelines [1].
 
+Examples of videos for the reconstruction are in the "Digital reconstruction data" folder.
+The results of the reconstruction of these videos are provided in the journal paper [1].
+
 ## Execution of the Pipeline
 To run the process for any image, run the following command:
 ```
