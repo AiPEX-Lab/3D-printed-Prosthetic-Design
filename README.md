@@ -43,6 +43,8 @@ The data used for training is generated via FEA. Please look at the journal [1] 
 The XGBoost model predicts the mechanical properties of 3D-printed shells based on filament material data and printing process parameters.
 Please look at the journal [1] for specific prediction performance.
 
+![image alt](https://github.com/AiPEX-Lab/3D-printed-Prosthetic-Design/blob/main/Figures/Mechanical%20Prediction%20Figure.png?raw=true)
+
 # Citations
 Please cite the following papers when using the provided data and code.
 
