@@ -26,7 +26,7 @@ bash automate.sh video_name.mp4
 ```
 
 The above command should run the entire pipeline and generate a mesh in the current working directory. Just so you know, this whole process can take about 24 hours.
-In the scenario that you are doing anything via ssh, it is best to be able to run the above command with nohup in case your connection times out. To do that, do the following:
+In the scenario that you are doing anything via ssh, it is best to run the above command with nohup in case your connection times out. To do that, do the following:
 ```
 nohup bash automate.sh video_name.mp4 > logfile.log 2>&1 &
 ```
@@ -35,6 +35,11 @@ If you have a connection reset and you log in to the remote workstation to see t
 ```
 tail -f -n 1 /path/to/your/logfile.log
 ```
+
+## Execution in a local machine
+
+The above instructions assume that you are running the pipeline through a docker container and that your GPU has more than 24GB VRAM.
+If you are planning to use Nueralangelo on a local machine or have a GPU with a different Vram size, please refer to [github.com/pere49/3d-reconstruction-neuralangelo-local](https://github.com/pere49/3d-reconstruction-neuralangelo-local)
 
 # Mechanical Prediction of 3D-printed shell
 All data and code for the mechanical prediction of the 3D-printed shell are in the "Mechanical prediction data and code" folder.
